@@ -14,4 +14,8 @@
 |  7 | 24-09-2025  | 07  |Navigasi Antar Halaman Menggunakan MaterialPageRoute dan Named Route|  [Modul 06](https://drive.google.com/file/d/1FL0RlUBs1ge5TwTdgPA2wp605XfkB7oV/view "Modul 07")  | [Laporan Praktikum 7](https://drive.google.com/file/d/1Sx9vxUueXNoYgOylkKgZiO5ss6MuRsmK/view?usp=drive_link) |
 |  8 | 24-09-2025  | 08  |Navigasi Antar Halaman dengan Mengirimkan Argumen Menggunakan Named Route|  [Modul 08](https://drive.google.com/file/d/10KMwv9Al60bD8qIRRBTVpdEmX8r6VcGl/view "Modul 08")  | [Laporan Praktikum 8](https://drive.google.com/file/d/1BEs94BZmkwaNggTB97bJbTgx6XHMK-c3/view?usp=drive_link) |
 |  9 | 01-10-2025  | 09  |StatefulWidget|  [Modul 09](https://drive.google.com/file/d/1hMW8jVZg5sbH-9a0eH6hbaKgkREEBp1W/view "Modul 09")  | [Laporan Praktikum 9](https://drive.google.com/drive/folders/15V_3tdwYCQHAHEu19RCozmMG1NfOX2OU?hl=id) |
+|  10 | 08-10-2025  | 10  |Desain GUI, Navigasi, dan Integrasi API dengan JSON Serialization di
+Flutter|  [Modul 10](https://drive.google.com/file/d/1hMW8jVZg5sbH-9a0eH6hbaKgkREEBp1W/view "Modul 09")  | [Laporan Praktikum 9](https://drive.google.com/file/d/1RKrR7S9XK57lFAbW6tObNgTV3hcd4f8D/view?usp=drive_link) |
+|  11 | 14-10-2025  | 11  |Manajemen State dengan GetX|  [Modul 11](https://drive.google.com/file/d/1hMW8jVZg5sbH-9a0eH6hbaKgkREEBp1W/view "Modul 09")  | [Laporan Praktikum 9](https://drive.google.com/file/d/1WUaqUmIj1zXkMTkuLRutR4EKoY-PyMhP/view?usp=drive_link) |
+
 
