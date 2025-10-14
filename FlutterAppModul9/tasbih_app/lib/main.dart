@@ -85,7 +85,7 @@ class _TasbihAppState extends State<TasbihApp> {
         useMaterial3: true,
       ),
       home: Scaffold(
-        backgroundColor: const Color.fromARGB(255, 119, 210, 145),
+        backgroundColor: const Color.fromARGB(255, 210, 119, 125),
         body: SafeArea(
           child: Center(
             child: Column(
