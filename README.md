@@ -19,7 +19,8 @@
 |  12 | 20-10-2025  | 12  |Ujian Tengah Semester|  [UTS](https://drive.google.com/file/d/1lOA5OdQpgvOYNBecJbM2edmYZb59NDT9/view?usp=sharing "UTS")  | [Laporan UTS](https://drive.google.com/file/d/1HxEP-oyx6h8RWO3fzxozvWGUPCK770MI/view?usp=sharing) |
 
 
-**#Penjelasan Project:**
+
+**Penjelasan Project:**
 # IbadahTracker App
 
 IbadahTracker App adalah aplikasi mobile yang dikembangkan menggunakan Flutter untuk membantu pengguna Muslim dalam memantau dan mencatat aktivitas ibadah harian mereka. Aplikasi ini dirancang dengan antarmuka yang bersih dan intuitif agar mudah digunakan.
