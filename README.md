@@ -16,5 +16,4 @@
 |  9 | 01-10-2025  | 09  |StatefulWidget|  [Modul 09](https://drive.google.com/file/d/1hMW8jVZg5sbH-9a0eH6hbaKgkREEBp1W/view "Modul 09")  | [Laporan Praktikum 9](https://drive.google.com/drive/folders/15V_3tdwYCQHAHEu19RCozmMG1NfOX2OU?hl=id) |
 |  10 | 08-10-2025  | 10  |Desain GUI, Navigasi, Integrasi API JSON Serialization di Flutter|  [Modul 10](https://drive.google.com/file/d/1mNyeNX-Kxq4mDLLlsy5vAG86iib2189C/view?usp=sharing "Modul 10")  | [Laporan Praktikum 10](https://drive.google.com/file/d/1RKrR7S9XK57lFAbW6tObNgTV3hcd4f8D/view?usp=drive_link) |
 |  11 | 14-10-2025  | 11  |Manajemen State dengan GetX|  [Modul 11](https://drive.google.com/file/d/18nrQDSmyMYEAAwJPGCxjoEeNe9hIA0Zp/view?usp=sharing "Modul 11")  | [Laporan Praktikum 11](https://drive.google.com/file/d/1WUaqUmIj1zXkMTkuLRutR4EKoY-PyMhP/view?usp=drive_link) |
-
-
+|  12 | 20-10-2025  | 12  |Ujian Tengah Semester|  [UTS](https://drive.google.com/file/d/1lOA5OdQpgvOYNBecJbM2edmYZb59NDT9/view?usp=sharing "UTS")  | [Laporan UTS](https://drive.google.com/file/d/1HxEP-oyx6h8RWO3fzxozvWGUPCK770MI/view?usp=sharing) |
