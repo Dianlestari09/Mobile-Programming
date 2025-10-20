@@ -1,3 +1,6 @@
+**Nama : Dian Lestari Kurniawati
+NIM  : 230605110016**
+
 # IbadahTracker App
 
 IbadahTracker App adalah aplikasi mobile yang dikembangkan menggunakan Flutter untuk membantu pengguna Muslim dalam memantau dan mencatat aktivitas ibadah harian mereka. Aplikasi ini dirancang dengan antarmuka yang bersih dan intuitif agar mudah digunakan.
