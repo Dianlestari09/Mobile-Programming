@@ -1,5 +1,5 @@
-**Nama : Dian Lestari Kurniawati
-NIM  : 230605110016**
+**Nama : Dian Lestari Kurniawati**
+**NIM  : 230605110016**
 
 # IbadahTracker App
 
