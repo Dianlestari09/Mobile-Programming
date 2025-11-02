@@ -44,8 +44,8 @@ class _PuasaPageState extends State<PuasaPage> {
   void _toggleFastingDay() {
     if (_selectedDay == null) return;
     setState(() {
-      final selectedDate =
-          DateTime.utc(_selectedDay!.year, _selectedDay!.month, _selectedDay!.day);
+      final selectedDate = DateTime.utc(
+          _selectedDay!.year, _selectedDay!.month, _selectedDay!.day);
       if (_fastingDays.contains(selectedDate)) {
         _fastingDays.remove(selectedDate);
       } else {
@@ -54,7 +54,6 @@ class _PuasaPageState extends State<PuasaPage> {
       widget.updateFastingDays(_fastingDays.length);
     });
   }
-
 
   @override
   Widget build(BuildContext context) {
@@ -67,8 +66,10 @@ class _PuasaPageState extends State<PuasaPage> {
       // --- PERUBAHAN DIMULAI DI SINI ---
       body: Padding(
         padding: const EdgeInsets.all(16.0),
-        child: SingleChildScrollView( // <--- WIDGET DITAMBAHKAN
-          child: Column( // <--- Column ini sekarang ada di dalam SingleChildScrollView
+        child: SingleChildScrollView(
+          // <--- WIDGET DITAMBAHKAN
+          child: Column(
+            // <--- Column ini sekarang ada di dalam SingleChildScrollView
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               // 1. Kalender
@@ -149,10 +150,13 @@ class _PuasaPageState extends State<PuasaPage> {
                         'Senin & Kamis',
                         'Puasa sunah yang dianjurkan',
                       ),
-                      _buildFastingInfo('13,14,15 Hijriah', 'Puasa Ayyamul Bidh'),
+                      _buildFastingInfo(
+                          '13,14,15 Hijriah', 'Puasa Ayyamul Bidh'),
                       _buildFastingInfo('9 & 10 Muharram', 'Puasa Asyura'),
-                      _buildFastingInfo('Ramadhan', 'Puasa wajib sebulan penuh'),
-                      _buildFastingInfo('Syawal', 'Puasa 6 hari di bulan Syawal'),
+                      _buildFastingInfo(
+                          'Ramadhan', 'Puasa wajib sebulan penuh'),
+                      _buildFastingInfo(
+                          'Syawal', 'Puasa 6 hari di bulan Syawal'),
                     ],
                   ),
                 ),

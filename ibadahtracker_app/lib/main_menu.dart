@@ -330,8 +330,7 @@ class _MainMenuState extends State<MainMenu> {
   }
 
   // (Fungsi _buildMenuButton tetap sama)
-  Widget _buildMenuButton(
-      IconData icon, String label, VoidCallback onPressed) {
+  Widget _buildMenuButton(IconData icon, String label, VoidCallback onPressed) {
     return Expanded(
       child: Card(
         elevation: 2,

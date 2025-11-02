@@ -99,17 +99,19 @@ class QuranApiService {
     // Simulasi pengambilan ayat harian.
     // Kita akan ambil ayat pertama (Basmalah) dari data dummy Juz 1
     // agar sesuai dengan apa yang diharapkan oleh main_menu.dart
-    await Future.delayed(const Duration(milliseconds: 500)); // Simulasi network delay
-    
+    await Future.delayed(
+        const Duration(milliseconds: 500)); // Simulasi network delay
+
     try {
       // Ambil data dari _juz1Data yang sudah ada di file ini
       final surahName = _juz1Data['name'] as String;
-      final verseData = (_juz1Data['verses'] as List).first as Map<String, dynamic>;
-      
+      final verseData =
+          (_juz1Data['verses'] as List).first as Map<String, dynamic>;
+
       return {
         // Kita gunakan 'translation' untuk field 'text' agar sesuai
         // dengan fallback data di main_menu.dart
-        'text': verseData['translation'], 
+        'text': verseData['translation'],
         'surah': surahName,
         'number': verseData['number'],
       };
@@ -123,7 +125,6 @@ class QuranApiService {
     }
   }
   // --- BATAS FUNGSI BARU ---
-
 
   // Data dummy (Juz 1 / Al-Fatihah)
   // Sesuai spesifikasi II.b

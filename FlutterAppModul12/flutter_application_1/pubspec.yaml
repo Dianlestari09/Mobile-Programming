@@ -1,0 +1,25 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0' # Saya perbaiki ini ke versi Dart yang modern
+
+# Ini adalah bagian yang sudah diperbaiki
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1     # Versi terbaru
+  geolocator: ^12.0.0    # Versi terbaru (INI WAJIB)
+  geocoding: ^4.0.0        # Versi terbaru (INI WAJIB)
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true

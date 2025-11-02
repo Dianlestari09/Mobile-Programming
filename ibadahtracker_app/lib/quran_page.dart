@@ -60,15 +60,14 @@ class _QuranPageState extends State<QuranPage> {
           surah['name']?['translation']?['id']?.toString().toLowerCase() ?? '';
       final arabicName =
           surah['name']?['short']?.toString().toLowerCase() ?? '';
-          
+
       final query = _searchQuery.toLowerCase();
-      
-      return transliteration.contains(query) || 
-             translation.contains(query) || 
-             arabicName.contains(query);
+
+      return transliteration.contains(query) ||
+          translation.contains(query) ||
+          arabicName.contains(query);
     }).toList();
   }
-
 
   @override
   Widget build(BuildContext context) {
@@ -132,8 +131,7 @@ class _QuranPageState extends State<QuranPage> {
       itemBuilder: (context, index) {
         final surah = _filteredSurahs[index];
         final surahNumber = surah['number'];
-        final surahArabicName =
-            surah['name']?['short']?.toString() ?? '...';
+        final surahArabicName = surah['name']?['short']?.toString() ?? '...';
         final surahTransliteration =
             surah['name']?['transliteration']?['id']?.toString() ?? 'Unknown';
         final verseCount = surah['numberOfVerses'];
@@ -230,9 +228,8 @@ class _QuranDetailPageState extends State<_QuranDetailPage> {
     final String translation = (translationData is Map)
         ? translationData['id']?.toString() ?? '...'
         : translationData?.toString() ?? '...';
-        
-    final arabicSurahName =
-        widget.surah['name']?['short']?.toString() ?? '';
+
+    final arabicSurahName = widget.surah['name']?['short']?.toString() ?? '';
 
     showDialog(
       context: context,
@@ -315,9 +312,9 @@ class _QuranDetailPageState extends State<_QuranDetailPage> {
     if (_surahDetail == null || (_surahDetail!['verses'] as List).isEmpty) {
       return const Center(child: Text('Tidak ada data ayat.'));
     }
-    
+
     final verses = _surahDetail!['verses'] as List;
-    
+
     return ListView.builder(
       padding: const EdgeInsets.all(16),
       itemCount: verses.length,
@@ -326,7 +323,7 @@ class _QuranDetailPageState extends State<_QuranDetailPage> {
 
         // --- LOGIKA BARU UNTUK MENGAMBIL DATA ---
         // (Ini penting agar Surah 1 dan Surah 2 dst bisa tampil)
-        
+
         // 1. Ambil Nomor Ayat
         final dynamic numberData = verse['number'];
         final String number = (numberData is Map)
@@ -344,7 +341,7 @@ class _QuranDetailPageState extends State<_QuranDetailPage> {
         final String translation = (translationData is Map)
             ? translationData['id']?.toString() ?? '...' // Dari API Asli
             : translationData?.toString() ?? '...'; // Dari Dummy Data
-            
+
         // (Transliterasi ayat tidak kita ambil)
         // --- BATAS LOGIKA BARU ---
 
@@ -376,7 +373,7 @@ class _QuranDetailPageState extends State<_QuranDetailPage> {
                   ],
                 ),
                 const SizedBox(height: 12),
-                
+
                 // HANYA TAMPILKAN TEKS ARAB
                 Text(
                   arabicText, // Gunakan teks Arab yang sudah diproses
@@ -385,7 +382,7 @@ class _QuranDetailPageState extends State<_QuranDetailPage> {
                   textDirection: TextDirection.rtl,
                 ),
                 const SizedBox(height: 12),
-                
+
                 // HANYA TAMPILKAN TERJEMAHAN
                 Text(
                   translation, // Gunakan terjemahan yang sudah diproses
@@ -394,9 +391,8 @@ class _QuranDetailPageState extends State<_QuranDetailPage> {
                     color: Colors.black54,
                   ),
                 ),
-                
+
                 // (BAGIAN TRANSLITERASI AYAT SUDAH DIHAPUS)
-                
               ],
             ),
           ),
