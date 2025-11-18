@@ -18,4 +18,7 @@
 |  11 | 14-10-2025  | 11  |Manajemen State dengan GetX|  [Modul 11](https://drive.google.com/file/d/18nrQDSmyMYEAAwJPGCxjoEeNe9hIA0Zp/view?usp=sharing "Modul 11")  | [Laporan Praktikum 11](https://drive.google.com/file/d/1WUaqUmIj1zXkMTkuLRutR4EKoY-PyMhP/view?usp=drive_link) |
 |  12 | 20-10-2025  | 12  |Ujian Tengah Semester|  [UTS](https://drive.google.com/file/d/1lOA5OdQpgvOYNBecJbM2edmYZb59NDT9/view?usp=sharing "UTS")  | [Laporan UTS](https://drive.google.com/file/d/1HxEP-oyx6h8RWO3fzxozvWGUPCK770MI/view?usp=sharing) |
 |  13 | 05-11-2025  | 13  |Akses Lokasi dengan GPS di Flutter|  [Modul 12](https://drive.google.com/file/d/1xebyDWrK97sHBuk18l03xJ0v6Ng031f6/view "Modul 12")  | [Laporan Praktikum 12](https://drive.google.com/file/d/1GYHCcqhlOoUa8DtPAlIsiWFc1Yv-feGh/view?usp=sharing) |
+|  14 | 18-11-2025  | 14  |Operasi CRUD di Flutter dengan REST API|  [Modul 13](https://drive.google.com/file/d/12oLMVn6X460gDB_xag5f1y8vFBRsLFOj/view "Modul 13")  | [Laporan Praktikum 13](https://drive.google.com/file/d/1Ecq-lDGIOxxrP-CiHM0gScG0xurUb-JD/view?usp=sharing) |
+
+
 
